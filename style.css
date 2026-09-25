@@ -330,7 +330,7 @@ form {
 .thanks-page {
   background-color: var(--clr-neutral-100);
   min-height: 100vh;
-  padding: 1.5rem;
+  padding: 5.5rem 1.5rem 2rem;
   
   display: none;
   place-content: center;
@@ -349,15 +349,16 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  height: 100%;
 }
 
 .thanks .button {
-  margin-top: 1rem;
+  margin-top: auto;
 }
 
 .thanks-content {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .thanks-content img {
