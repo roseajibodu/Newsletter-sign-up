@@ -354,6 +354,8 @@ form {
 
 .thanks .button {
   margin-top: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .thanks-content {
